@@ -8,6 +8,6 @@ int test(int weight) {
 
 int main(int argc, char *argv[]) {
     float weight = test(argc);
-    printf("%f", weight);
+    //printf("%f", weight);
     return 0;
 }
