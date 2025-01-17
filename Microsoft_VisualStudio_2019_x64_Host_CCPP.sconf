@@ -17,11 +17,16 @@
       "cs_set_type_size=double;8",
       "cs_set_type_size=long;4",
       "cs_set_type_size=pointer;8",
-      "cs_size_t_kind=__int64",
-      "microsoft_version=1926",
+      "cs_size_t_kind=long",
+      "gnu_version=50300",
+	  "target=win32",
       ""
     ],
-    "include": []
+    "include": [
+		"c:\\gcc\\5.3.0\\32bit\\lib\\gcc\\mingw32\\5.3.0\\include",
+		"c:\\gcc\\5.3.0\\32bit\\include",
+		"c:\\gcc\\5.3.0\\32bit\\lib\\gcc\\mingw32\\5.3.0\\include-fixed"
+	]
   },
   {
     "language": "cpp",
@@ -41,10 +46,18 @@
       "cs_set_type_size=double;8",
       "cs_set_type_size=long;4",
       "cs_set_type_size=pointer;8",
-      "cs_size_t_kind=__int64",
-      "microsoft_version=1926",
+      "cs_size_t_kind=long",
+      "gnu_version=50300",
+	  "target=win32",
       ""
     ],
-    "include": []
+    "include": [
+		"c:\\gcc\\5.3.0\\32bit\\lib\\gcc\\mingw32\\5.3.0\\include\\c++",
+		"c:\\gcc\\5.3.0\\32bit\\lib\\gcc\\mingw32\\5.3.0\\include\\c++\\mingw32",
+		"c:\\gcc\\5.3.0\\32bit\\lib\\gcc\\mingw32\\5.3.0\\include\\c++\\backward",
+		"c:\\gcc\\5.3.0\\32bit\\lib\\gcc\\mingw32\\5.3.0\\include",
+		"c:\\gcc\\5.3.0\\32bit\\include",
+		"c:\\gcc\\5.3.0\\32bit\\lib\\gcc\\mingw32\\5.3.0\\include-fixed"
+	]
   }
 ]

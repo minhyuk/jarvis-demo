@@ -1,5 +1,5 @@
 @echo off
-call "C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\Common7\Tools\VsDevCmd.bat"
-cl -c bad_case.c
-cl -c test.c
-cl test.obj bad_case.obj /Fetest.exe
+set PATH=C:\gcc\5.3.0\32bit\bin;%PATH%
+gcc -c bad_case.c
+gcc -c test.c
+gcc -o test.exe bad_case.o test.o
